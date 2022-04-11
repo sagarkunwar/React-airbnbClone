@@ -1,0 +1,43 @@
+.banner_area {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  height: 70vh;
+  background-image: url("https://cdn.vox-cdn.com/thumbor/iW6rIrHS0-TsD2fjLaT3aIAvDgI=/0x0:1440x960/925x925/filters:focal(624x417:854x647):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/65528594/d99ba571_4ea2_453d_8eb3_11459a57a038.0.jpg");
+  position: relative;
+  background-position: center;
+}
+
+.banner_info {
+  color: white;
+  padding: 50px;
+  font-size: 50px;
+}
+
+.banner_button {
+  background-color: white;
+  color: #ff7779;
+  font-size: 20px;
+  border: #ff7779 solid 3px;
+  border-radius: 999px;
+  height: 50px;
+  width: 300px;
+  font-weight: 600;
+}
+
+.banner_searchButton {
+  font-size: 12px !important;
+  width: 100% !important;
+  color: #ff7779 !important;
+  border: gainsboro solid 2px !important;
+  font-weight: 600 !important;
+  background-color: white !important;
+  border-radius: 3px !important;
+}
+
+.banner_button:hover {
+  background-color: #ff7779;
+  color: white;
+}

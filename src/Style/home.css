@@ -1,0 +1,40 @@
+.home_cards {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.adsCard {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  /* background-color: #ff7779; */
+  /* align-items: center; */
+}
+
+.ads_title > h1 {
+  padding: 20px;
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 50px;
+}
+.city_info > h1 {
+  padding: 30px;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+.city_info > h1:hover {
+  color: #ff7779;
+}
+
+.room_info > h1 {
+  padding: 30px;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.room_info > h1:hover {
+  color: #ff7779;
+}

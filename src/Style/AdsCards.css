@@ -1,0 +1,27 @@
+.AdsCard {
+  /* position: relative; */
+  margin-left: 50px;
+  margin-right: 50px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 300ms ease-out;
+
+  /* background-color: aqua; */
+}
+.AdsCard:hover {
+  color: white;
+  background-color: #ff7779;
+  transform: scale(1.07);
+}
+
+.AdsCard > img {
+  padding-left: 1px;
+  min-height: 650px;
+}
+
+.AdsCard > h1 {
+  text-align: center;
+  padding: 20px;
+  z-index: 100;
+}
